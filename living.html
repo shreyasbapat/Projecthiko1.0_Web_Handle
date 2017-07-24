@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title style="font-family:"main"">Dashboard Hiko- Living Room</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Official Website of Hiko Labs Inc. We are developing a project for electronic lab course.">
+    <meta name="keywords" content="hiko,IIT,IIT Mandi,IITMandi,IITm,Mandi,Himachal,hikoPi,hikoproject1,project hiko">
+    <meta name="author" content="Shreyas Bapat, Rakshit Matta, Neeraj Yadav">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	 <script>
+    function toggleMenu(){
+      var menubox=document.getElementById('rakshit');
+      if(menubox.style.display == "block"){
+        menubox.style.display="none";
+      }
+      else {
+        menubox.style.display = "block";
+      }
+    }
+    </script>
+
+</head>
+<body id="Home" bgcolor="#FFFFFF">
+  <header>
+  <button class="menu-trigger" onclick="toggleMenu()">hiko 1.o</button>
+  </header>
+  <nav>
+      <a href="index.html">Home</a>
+      <a href="loggedin.html">Control Panel</a>
+      <a href="index.html#AboutUs">About Us</a>
+      <a href="index.html#OurTeam">Our Team</a>
+      <a href="index.html#Support">Support</a>
+      <a align="right" style="font-size: small;float: right;" href="#">Hiko User Dashboard</a>
+  </nav>
+   <ul class="yo" id="rakshit">
+    <br>
+<li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+<li><a href="loggedin.html" onclick="toggleMenu()">Control Panel</a></li>
+<li><a href="index.html#AboutU" onclick="toggleMenu()">About Us</a></li>
+<li><a href="index.html#OurTeam" onclick="toggleMenu()">Our team</a></li>
+<li><a href="index.html#Support" onclick="toggleMenu()">Support</a></li>
+  </ul>
+<br>
+<br>
+<br>
+<br>
+<h1 align="center" class="orange"><strong>Hiko || Projecthiko 1.O || Control Panel || Living Room</strong></h1>
+<br>
+<br>
+<br>
+<p align="center">Welcome to this world of simplicity! Go on and Hiko!</p>
+<p align="center">Just click on the electrical device for which you want hiko to operate:</p>
+<br>
+<div class="but" align="center">
+<a href="http://192.168.225.42:5000/livingon" target="_blank">Light On</a><br>
+<a href="http://192.168.225.42:5000/livingoff" target="_blank">Light Off</a><br>
+</div>
+
+
+
+
+</body>
+</html>
